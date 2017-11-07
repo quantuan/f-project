@@ -21,7 +21,8 @@
 				return testsToRun;
 			}
 			
-			
+
+
 			private function onCreationComplete():void
 			{
 				testRunner.runWithFlexUnit4Runner(currentRunTestSuite(), "fprj-core-test");
